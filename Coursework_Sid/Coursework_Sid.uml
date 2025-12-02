@@ -195,6 +195,48 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_rmw48MpeEfCIxZuR8RV0wg" client="_gmUDQMpeEfCIxZuR8RV0wg" supplier="_k1nVQMpeEfCIxZuR8RV0wg"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_zkeWYMpeEfCIxZuR8RV0wg" name="SendNotification"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_CRoHUMpfEfCIxZuR8RV0wg" client="_rmw48MpeEfCIxZuR8RV0wg" supplier="_zkeWYMpeEfCIxZuR8RV0wg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VGhS4M8DEfCrPLAms_qvnw" name="EventManagerService">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rLNSEM8DEfCrPLAms_qvnw" name="create event">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OCwDQM8FEfC83LjUTlksmA" name="officerId" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LCKxsM8GEfC83LjUTlksmA" name="LiteralString1"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DNl28M9aEfCOn7aXumsZbg" name="Parameter1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NeeQ4M9aEfCOn7aXumsZbg" name="modify event">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Qv7akM9aEfCOn7aXumsZbg" name="eventId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rZ6w8M9aEfCOn7aXumsZbg" name="Promotion Material">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ubV6kM9aEfCOn7aXumsZbg" name="eventId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7GYCwM9aEfCOn7aXumsZbg" name="materialdata ">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__NacIM8DEfCrPLAms_qvnw" name="ViewEvents">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_N_s5MM9bEfCOn7aXumsZbg" name="Operation1"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QXAu0M9bEfCOn7aXumsZbg" name="geteventdetails">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vkm1EM9bEfCOn7aXumsZbg" name="eventId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_05jesM9bEfCOn7aXumsZbg" name="ManageEvent">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XcZAoM9cEfCOn7aXumsZbg" name="addEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YJTxAM9cEfCOn7aXumsZbg" name="officerID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_b1KXsM9cEfCOn7aXumsZbg" name="eventdata">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_prn3YMpdEfCIxZuR8RV0wg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_prulEMpdEfCIxZuR8RV0wg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
