@@ -122,7 +122,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EAH5xr6IEfCDEoI4Iov8Eg"/>
           </children>
           <element xmi:type="uml:UseCase" href="Coursework_Sid.uml#_EAGEkL6IEfCDEoI4Iov8Eg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EAHSsb6IEfCDEoI4Iov8Eg" x="654" y="534" width="200" height="80"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EAHSsb6IEfCDEoI4Iov8Eg" x="594" y="554" width="200" height="80"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_HMRssL6IEfCDEoI4Iov8Eg" type="UseCase_Shape_CCN">
           <children xmi:type="notation:DecorationNode" xmi:id="_HMRssr6IEfCDEoI4Iov8Eg" type="UseCase_NameLabel_CCN"/>
@@ -265,7 +265,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_nFv5J89yEfCOn7aXumsZbg" y="15"/>
       </children>
       <element xmi:type="uml:Actor" href="Coursework_Sid.uml#_nFmIIM9yEfCOn7aXumsZbg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nFvSEc9yEfCOn7aXumsZbg" x="320" y="820" width="180" height="100"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nFvSEc9yEfCOn7aXumsZbg" x="740" y="840" width="180" height="100"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_gnfuYb5-EfC2GsKCW8BmsA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_gnfuYr5-EfC2GsKCW8BmsA"/>
