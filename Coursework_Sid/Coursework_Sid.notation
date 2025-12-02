@@ -251,6 +251,22 @@
       <element xmi:type="uml:Actor" href="Coursework_Sid.uml#_wuRrEL6GEfCDEoI4Iov8Eg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuTgQb6GEfCDEoI4Iov8Eg" x="20" y="400" width="50" height="70"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_6HzDMM9xEfCOn7aXumsZbg" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6H0RUM9xEfCOn7aXumsZbg" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6H0RUc9xEfCOn7aXumsZbg" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6H0RUs9xEfCOn7aXumsZbg" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6H0RU89xEfCOn7aXumsZbg" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6H0RVM9xEfCOn7aXumsZbg" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6H0RVc9xEfCOn7aXumsZbg" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6H0RVs9xEfCOn7aXumsZbg" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6H0RV89xEfCOn7aXumsZbg" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="Coursework_Sid.uml#_6HpSMM9xEfCOn7aXumsZbg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6HzDMc9xEfCOn7aXumsZbg" x="1275" y="375"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_gnfuYb5-EfC2GsKCW8BmsA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_gnfuYr5-EfC2GsKCW8BmsA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_gnfuY75-EfC2GsKCW8BmsA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">

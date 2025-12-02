@@ -237,6 +237,7 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6HpSMM9xEfCOn7aXumsZbg" name="Actor52"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_prn3YMpdEfCIxZuR8RV0wg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_prulEMpdEfCIxZuR8RV0wg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
